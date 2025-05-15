@@ -73,6 +73,6 @@ export default function Actions({ type, onClick, highlight = false, label, hidde
     )
     
     return (
-      <div className="w-[198px] h-[203px] bg-gray-200 rounded-full" /> 
+      <div className="items-center relative mx-auto w-[198px] h-[203px]w-[198px] h-[203px] bg-black/[.05] rounded-full" /> 
     )
 }

@@ -2,7 +2,7 @@ export default function Header({ score }) {
     return (
       <div className="flex justify-between items-center border-2 border-gray-500 rounded-lg p-4 w-[460px] mx-auto mt-8">
         <div className="mr-10">
-          <img src="/logo.svg" />
+          <img src="/logo.svg" alt="Rock Paper Scissors Logo" />
         </div>
         <div className="bg-white rounded-md px-10 py-6 flex flex-col items-center">
           <span className="text-xl text-[#2A45C2] tracking-wide">SCORE</span>

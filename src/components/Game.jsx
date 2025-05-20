@@ -7,7 +7,7 @@ const winConditions = {
   paper: "rock",
 };
 
-export default function Game({ setScore, score }) {
+export default function Game({ setScore }) {
   const [player, setPlayer] = useState(null);
   const [computer, setComputer] = useState(null);
   const [result, setResult] = useState("");
